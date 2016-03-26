@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NavigationViewController.h
 //  MyNotePad
 //
 //  Created by yang johnny on 3/22/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface NavigationViewController : UINavigationController
 
 @end
-

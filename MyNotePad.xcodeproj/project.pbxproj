@@ -9,13 +9,22 @@
 /* Begin PBXBuildFile section */
 		B2F2CDCE1CA1438400BBD6B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2CDCD1CA1438400BBD6B9 /* main.m */; };
 		B2F2CDD11CA1438400BBD6B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2CDD01CA1438400BBD6B9 /* AppDelegate.m */; };
-		B2F2CDD41CA1438400BBD6B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2CDD31CA1438400BBD6B9 /* ViewController.m */; };
 		B2F2CDD71CA1438500BBD6B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F2CDD51CA1438500BBD6B9 /* Main.storyboard */; };
 		B2F2CDDA1CA1438500BBD6B9 /* MyNotePad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2F2CDD81CA1438500BBD6B9 /* MyNotePad.xcdatamodeld */; };
 		B2F2CDDC1CA1438500BBD6B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F2CDDB1CA1438500BBD6B9 /* Assets.xcassets */; };
 		B2F2CDDF1CA1438500BBD6B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F2CDDD1CA1438500BBD6B9 /* LaunchScreen.storyboard */; };
 		B2F2CDEA1CA1438500BBD6B9 /* MyNotePadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2CDE91CA1438500BBD6B9 /* MyNotePadTests.m */; };
 		B2F2CDF51CA1438500BBD6B9 /* MyNotePadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2CDF41CA1438500BBD6B9 /* MyNotePadUITests.m */; };
+		B2F2CE041CA145A600BBD6B9 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2CE031CA145A600BBD6B9 /* NavigationViewController.m */; };
+		B2F2CE071CA145E000BBD6B9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2CE061CA145E000BBD6B9 /* MainViewController.m */; };
+		B2F2CE0D1CA14BC600BBD6B9 /* showViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2CE0C1CA14BC600BBD6B9 /* showViewController.m */; };
+		B2F2CE101CA15E0700BBD6B9 /* addNoteController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2CE0F1CA15E0700BBD6B9 /* addNoteController.m */; };
+		B2F2CE131CA1613D00BBD6B9 /* deleteNoteController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2CE121CA1613D00BBD6B9 /* deleteNoteController.m */; };
+		B2F2CE151CA161EF00BBD6B9 /* notepad.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F2CE141CA161EF00BBD6B9 /* notepad.png */; };
+		B2F2CE1E1CA16CBD00BBD6B9 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2CE1D1CA16CBD00BBD6B9 /* CoreDataManager.m */; };
+		B2F2CE231CA16F0A00BBD6B9 /* Notes+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2CE201CA16F0A00BBD6B9 /* Notes+CoreDataProperties.m */; };
+		B2F2CE241CA16F0A00BBD6B9 /* Notes.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2CE221CA16F0A00BBD6B9 /* Notes.m */; };
+		B2F2CE261CA1945600BBD6B9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F2CE251CA1945600BBD6B9 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +49,6 @@
 		B2F2CDCD1CA1438400BBD6B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B2F2CDCF1CA1438400BBD6B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B2F2CDD01CA1438400BBD6B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B2F2CDD21CA1438400BBD6B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B2F2CDD31CA1438400BBD6B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B2F2CDD61CA1438500BBD6B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2F2CDD91CA1438500BBD6B9 /* MyNotePad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyNotePad.xcdatamodel; sourceTree = "<group>"; };
 		B2F2CDDB1CA1438500BBD6B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +60,24 @@
 		B2F2CDF01CA1438500BBD6B9 /* MyNotePadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNotePadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F2CDF41CA1438500BBD6B9 /* MyNotePadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNotePadUITests.m; sourceTree = "<group>"; };
 		B2F2CDF61CA1438500BBD6B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F2CE021CA145A600BBD6B9 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		B2F2CE031CA145A600BBD6B9 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		B2F2CE051CA145E000BBD6B9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B2F2CE061CA145E000BBD6B9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B2F2CE0B1CA14BC600BBD6B9 /* showViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = showViewController.h; sourceTree = "<group>"; };
+		B2F2CE0C1CA14BC600BBD6B9 /* showViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = showViewController.m; sourceTree = "<group>"; };
+		B2F2CE0E1CA15E0700BBD6B9 /* addNoteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addNoteController.h; sourceTree = "<group>"; };
+		B2F2CE0F1CA15E0700BBD6B9 /* addNoteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addNoteController.m; sourceTree = "<group>"; };
+		B2F2CE111CA1613D00BBD6B9 /* deleteNoteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deleteNoteController.h; sourceTree = "<group>"; };
+		B2F2CE121CA1613D00BBD6B9 /* deleteNoteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = deleteNoteController.m; sourceTree = "<group>"; };
+		B2F2CE141CA161EF00BBD6B9 /* notepad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notepad.png; sourceTree = "<group>"; };
+		B2F2CE1C1CA16CBD00BBD6B9 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		B2F2CE1D1CA16CBD00BBD6B9 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		B2F2CE1F1CA16F0A00BBD6B9 /* Notes+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Notes+CoreDataProperties.h"; sourceTree = "<group>"; };
+		B2F2CE201CA16F0A00BBD6B9 /* Notes+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Notes+CoreDataProperties.m"; sourceTree = "<group>"; };
+		B2F2CE211CA16F0A00BBD6B9 /* Notes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notes.h; sourceTree = "<group>"; };
+		B2F2CE221CA16F0A00BBD6B9 /* Notes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notes.m; sourceTree = "<group>"; };
+		B2F2CE251CA1945600BBD6B9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2F2CE261CA1945600BBD6B9 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +109,7 @@
 		B2F2CDC01CA1438400BBD6B9 = {
 			isa = PBXGroup;
 			children = (
+				B2F2CE251CA1945600BBD6B9 /* CoreData.framework */,
 				B2F2CDCB1CA1438400BBD6B9 /* MyNotePad */,
 				B2F2CDE81CA1438500BBD6B9 /* MyNotePadTests */,
 				B2F2CDF31CA1438500BBD6B9 /* MyNotePadUITests */,
@@ -105,9 +132,24 @@
 			children = (
 				B2F2CDCF1CA1438400BBD6B9 /* AppDelegate.h */,
 				B2F2CDD01CA1438400BBD6B9 /* AppDelegate.m */,
-				B2F2CDD21CA1438400BBD6B9 /* ViewController.h */,
-				B2F2CDD31CA1438400BBD6B9 /* ViewController.m */,
+				B2F2CE021CA145A600BBD6B9 /* NavigationViewController.h */,
+				B2F2CE031CA145A600BBD6B9 /* NavigationViewController.m */,
+				B2F2CE051CA145E000BBD6B9 /* MainViewController.h */,
+				B2F2CE061CA145E000BBD6B9 /* MainViewController.m */,
 				B2F2CDD51CA1438500BBD6B9 /* Main.storyboard */,
+				B2F2CE0E1CA15E0700BBD6B9 /* addNoteController.h */,
+				B2F2CE0F1CA15E0700BBD6B9 /* addNoteController.m */,
+				B2F2CE0B1CA14BC600BBD6B9 /* showViewController.h */,
+				B2F2CE0C1CA14BC600BBD6B9 /* showViewController.m */,
+				B2F2CE111CA1613D00BBD6B9 /* deleteNoteController.h */,
+				B2F2CE121CA1613D00BBD6B9 /* deleteNoteController.m */,
+				B2F2CE1C1CA16CBD00BBD6B9 /* CoreDataManager.h */,
+				B2F2CE1D1CA16CBD00BBD6B9 /* CoreDataManager.m */,
+				B2F2CE1F1CA16F0A00BBD6B9 /* Notes+CoreDataProperties.h */,
+				B2F2CE201CA16F0A00BBD6B9 /* Notes+CoreDataProperties.m */,
+				B2F2CE211CA16F0A00BBD6B9 /* Notes.h */,
+				B2F2CE221CA16F0A00BBD6B9 /* Notes.m */,
+				B2F2CE141CA161EF00BBD6B9 /* notepad.png */,
 				B2F2CDDB1CA1438500BBD6B9 /* Assets.xcassets */,
 				B2F2CDDD1CA1438500BBD6B9 /* LaunchScreen.storyboard */,
 				B2F2CDE01CA1438500BBD6B9 /* Info.plist */,
@@ -247,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2F2CDDF1CA1438500BBD6B9 /* LaunchScreen.storyboard in Resources */,
+				B2F2CE151CA161EF00BBD6B9 /* notepad.png in Resources */,
 				B2F2CDDC1CA1438500BBD6B9 /* Assets.xcassets in Resources */,
 				B2F2CDD71CA1438500BBD6B9 /* Main.storyboard in Resources */,
 			);
@@ -273,9 +316,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2F2CDD41CA1438400BBD6B9 /* ViewController.m in Sources */,
+				B2F2CE041CA145A600BBD6B9 /* NavigationViewController.m in Sources */,
+				B2F2CE101CA15E0700BBD6B9 /* addNoteController.m in Sources */,
+				B2F2CE131CA1613D00BBD6B9 /* deleteNoteController.m in Sources */,
+				B2F2CE241CA16F0A00BBD6B9 /* Notes.m in Sources */,
 				B2F2CDD11CA1438400BBD6B9 /* AppDelegate.m in Sources */,
+				B2F2CE1E1CA16CBD00BBD6B9 /* CoreDataManager.m in Sources */,
 				B2F2CDCE1CA1438400BBD6B9 /* main.m in Sources */,
+				B2F2CE071CA145E000BBD6B9 /* MainViewController.m in Sources */,
+				B2F2CE0D1CA14BC600BBD6B9 /* showViewController.m in Sources */,
+				B2F2CE231CA16F0A00BBD6B9 /* Notes+CoreDataProperties.m in Sources */,
 				B2F2CDDA1CA1438500BBD6B9 /* MyNotePad.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,6 +550,7 @@
 				B2F2CDFB1CA1438500BBD6B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2F2CDFC1CA1438500BBD6B9 /* Build configuration list for PBXNativeTarget "MyNotePadTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +559,7 @@
 				B2F2CDFE1CA1438500BBD6B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2F2CDFF1CA1438500BBD6B9 /* Build configuration list for PBXNativeTarget "MyNotePadUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +568,7 @@
 				B2F2CE011CA1438500BBD6B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
